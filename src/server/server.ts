@@ -1,5 +1,4 @@
 process.env.PROCESS_NAME = 'server';
-import '../common/install-source-map-support';
 import 'csdm/node/logger';
 import type { RawData } from 'ws';
 import type WebSocket from 'ws';
